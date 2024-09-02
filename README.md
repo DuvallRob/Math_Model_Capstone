@@ -79,4 +79,4 @@ The integration of AI into mathematical models for neutron capture in hybrid nuc
 
 ## Code
 
-The code for this project is hosted on GitHub. Test [here]([https://github.com/yourusername/your-repository-name](https://replit.com/@DuvallRoberts/Hybrid-Reactor-Math-Model-with-data)).
+The code for this project is hosted on GitHub. Test [here](https://replit.com/@DuvallRoberts/Hybrid-Reactor-Math-Model-with-data).
