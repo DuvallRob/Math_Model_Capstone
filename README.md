@@ -31,22 +31,28 @@ The selected model combines traditional deterministic differential equations wit
 ### Key Equations
 
 1. **Fusion Reaction Dynamics:**
+
    \[
    \frac{dN_{\text{fusion}}}{dt} = \text{AI\_predict}(\text{density\_fuel}, \sigma_{\text{fusion}}, \phi)
    \]
+
    - Models neutron production during fusion reactions.
    - AI dynamically adjusts neutron yield predictions based on real-time data.
 
 2. **Fission Reaction Dynamics:**
+
    \[
    \frac{dN_{\text{fission}}}{dt} = \text{AI\_predict}(\text{density\_fuel}, \sigma_{\text{fission}}, N) - \lambda \cdot N
    \]
+
    - AI adjusts for neutron production and absorption rates, using real-time data to modify predictions.
 
 3. **Overall Neutron Population Dynamics:**
+
    \[
    \frac{dN}{dt} = \frac{dN_{\text{fusion}}}{dt} + \frac{dN_{\text{fission}}}{dt}
    \]
+
    - Integrates the fusion and fission dynamics to predict overall neutron population changes.
 
 ### Real-World Data Integration
@@ -80,4 +86,3 @@ The integration of AI into mathematical models for neutron capture in hybrid nuc
 ## Code
 
 The code for this project is hosted on GitHub.
-
